@@ -5,6 +5,7 @@ Nav {
     font-style: oblique;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
+.navbar{padding-right: 50px;}
 .list-group{background-color: #efd3c4;}
 .d-block{height: 520px;}
 .row{margin-top:60px; margin-top: auto; margin-bottom: 60px; margin-bottom: auto;}
@@ -19,6 +20,7 @@ H1{text-align: center;}
 .text-uppercase{text-align: left; color: #efd3c4;}
 ul{text-align: left;}
 .fa-brands{border-color: bisque; list-style-image: none;}
+
 .container{background-color:#efd3c4;}
 Nav {
     background-color: #efd3c4;
@@ -41,3 +43,5 @@ H1{text-align: center;}
 ul{text-align: left;}
 .fa-brands{border-color: bisque; list-style-image: none;}
 .i{list-style: none;}
+form{padding-top: 40px; padding-bottom: 30px;padding-left: 30px;}
+footer{padding:10px}

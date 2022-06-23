@@ -5,6 +5,7 @@ Nav {
     font-style: oblique;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
+.navbar{padding-right: 50px;}
 .list-group{background-color: #efd3c4;}
 .d-block{height: 520px;}
 .row{margin-top:60px; margin-top: auto; margin-bottom: 60px; margin-bottom: auto;}
@@ -17,7 +18,7 @@ H1{text-align: center;}
 .d-flex{margin-top: 60px;justify-content: center; font-stretch: expanded;}
 .img-fluid{height: 400px; margin-top: 30px px;}
 .text-uppercase{text-align: left; color: #efd3c4;}
-ul{text-align: left;}
+ul{text-align: left;padding-top:30px;}
 .fa-brands{border-color: bisque; list-style-image: none;}
 i{list-style: none;}
 .container{background-color:#efd3c4;}
@@ -27,6 +28,7 @@ Nav {
     font-style: oblique;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
+.d-flex{padding:40px}
 .list-group{background-color: #efd3c4;}
 .d-block{height: 520px;}
 .row{margin-top:60px; margin-top: auto; margin-bottom: 60px; margin-bottom: auto;}
@@ -42,3 +44,4 @@ H1{text-align: center;}
 ul{text-align: left;}
 .fa-brands{border-color: bisque; list-style-image: none;}
 i{list-style: none;}
+footer{padding:10px}

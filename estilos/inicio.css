@@ -1,4 +1,5 @@
 .container{background-color:#efd3c4;}
+body{margin:auto}
 Nav {
     background-color: #efd3c4;
     text-shadow: 5px;
@@ -44,4 +45,4 @@ H1{text-align: center;}
 ul{text-align: left;}
 .fa-brands{border-color: bisque; list-style-image: none;}
 i{list-style: none;}
-footer{padding:10px}
+

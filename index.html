@@ -11,41 +11,41 @@
 <script data-search-pseudo-elements src="https://kit.fontawesome.com/f737751420.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
-    <div class="container-fluid">
-        <div class="row row-cols-12 justify-content-center">
-            <nav class="navbar">
-                    <div class="container-fluid col-md-6 ">
-                        <a class="navbar-brand" href="#">
-                        <img src="./imagenes/uwalogo.png" alt="logo" width="200" height="200" class="d-inline-center align-text-button"> Belleza Coreana
-                       </a>
-                    </div class="container-fluid"> 
-                    <div class="col-md-4">
-                        <ul class="list-group list-group-horizontal align-self-end border-radius">
-                            <li class="list-group-item">
-                            <a class="nav-link active" aria-current="page" href="./htmls/registro.html">Registrar</a>
-                            </li>
-                            
-                            <li class="list-group-item">
-                            <a class="nav-link" href="#">Inspiración</a>
-                            </li>
-                            
-                            <li class="list-group-item">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Productos
-                            </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <li><a class="dropdown-item" href="#">Skincare</a></li>
-                                    <li><a class="dropdown-item" href="#">Makeup</a></li>
-                                    <li><a class="dropdown-item" href="#">Asesorías</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-            </nav>
-        </div>  
-           
+<body class="bg-light">
+
+  <nav class="navbar navbar-expand-md">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="./htmls/uwalogo.png" alt="" width="120" height="80">
+      </a>
     </div>
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./htmls/registro.html">Regístate</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Inspiración</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Productos
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Skincare</a></li>
+              <li><a class="dropdown-item" href="#">Makeup</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Asesorías</a></li>
+            </ul>
+          </li>
+        </ul> 
+      </div>
+    </div>
+  </nav>
 
     <!-- Jumbotron con carousel -->
 

@@ -45,4 +45,5 @@ H1{text-align: center;}
 ul{text-align: left;}
 .fa-brands{border-color: bisque; list-style-image: none;}
 i{list-style: none;}
-
+nav ul li a{text-transform: uppercase;}
+a.active, a.hover{}

@@ -43,7 +43,7 @@ H1{text-align: center;}
 .img-fluid{height: 400px; margin-top: 30px px;}
 .text-uppercase{text-align: left; color: #efd3c4;}
 ul{text-align: left;}
-.fa-brands{border-color: bisque; list-style-image: none;}
+.fa-brands{ list-style-image: none; size: 15px;}
 i{list-style: none;}
 button{margin:  20px;}
 .card{margin: 20px; padding:20px}
